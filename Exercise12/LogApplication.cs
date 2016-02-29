@@ -8,22 +8,23 @@ namespace Exercise12
 {
     class LogApplication
     {
-        ILogger log = null;
+        ILogger _logger = null;
 
-        public LogApplication (ILogger _log) : base()
+        public LogApplication (ILogger _logger) : base()
         {
-            this.log = _log;
+            this._logger = _logger;
         }
 
         public void Run()
         {
-            Console.WriteLine("1. Add message log");
-            Console.WriteLine("2. Print Log");
-            Console.WriteLine();
-            Console.Write("Choise: ");
 
             while (true)
             {
+                Console.Clear();
+                Console.WriteLine("1. Add message log");
+                Console.WriteLine("2. Print Log");
+                Console.WriteLine();
+                Console.Write("Choise: ");
                 var input = Console.ReadLine();
 
 
@@ -32,10 +33,10 @@ namespace Exercise12
                     case "1":
                         Console.Write("Message: ");
                         var logMessage = Console.ReadLine();
-                        log.Log(logMessage);
+                        _logger.Log(logMessage);
                         break;
                     case "2":
-                        foreach (string log in log.LogPosts)
+                        foreach (string log in _logger.LogPosts)
                         { Console.WriteLine(log); }
 
                         break;
