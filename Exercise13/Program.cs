@@ -20,7 +20,7 @@ namespace Exercise13
             var day = int.Parse(Console.ReadLine());
 
             var then = new DateTime(year, month, day);
-            var today = DateTime.UtcNow;
+            var today = DateTime.Now;
 
             var age = today.Year - then.Year;
 

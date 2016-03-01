@@ -17,13 +17,8 @@ namespace ExtraMod4
 
             for (int i = 1; i <= rows; i++)
             {
-                if (i % 2 == 0)
-                {
-                    htmlOutput.Append(" <tr>\n");
-                }
-                else {
-                    htmlOutput.Append(" <tr bgcolor=\"#CCCCCC\">\n");
-                }
+                if (i % 2 == 0){ htmlOutput.Append(" <tr>\n");}
+                else { htmlOutput.Append(" <tr bgcolor=\"#CCCCCC\">\n"); }
 
                 htmlOutput.Append("     <td>Row" + i + "</td>\n");
                 htmlOutput.Append("     <td>xxxxx</td>\n");
