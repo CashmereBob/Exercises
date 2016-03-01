@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraMod4.2 string input", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extra 5 Lists", "..\Extra 5 Lists\Extra 5 Lists.csproj", "{EC116E6A-F785-40B6-9DAA-E58DB1BAC8CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise14", "..\Exercise14\Exercise14.csproj", "{A0D16DA3-1B25-40B4-8AC9-EB9FF57BB27D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{EC116E6A-F785-40B6-9DAA-E58DB1BAC8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC116E6A-F785-40B6-9DAA-E58DB1BAC8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC116E6A-F785-40B6-9DAA-E58DB1BAC8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D16DA3-1B25-40B4-8AC9-EB9FF57BB27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D16DA3-1B25-40B4-8AC9-EB9FF57BB27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D16DA3-1B25-40B4-8AC9-EB9FF57BB27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D16DA3-1B25-40B4-8AC9-EB9FF57BB27D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
