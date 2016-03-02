@@ -8,18 +8,27 @@ namespace Exercise14
 {
     class Table
     {
+        
         private List<TableRow> _rows;
         int _masterNumberOfCells = 0;
 
         public Table()
         {
             _rows = new List<TableRow>();
+            
         }
 
         public void AddRow(TableRow row)
         {
             
             _rows.Add(row);
+            MasterCellCount();
+
+        }
+        public void AddCol(int cols = 1)
+        {
+
+            _masterNumberOfCells += cols;
             MasterCellCount();
 
         }

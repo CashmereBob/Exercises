@@ -23,7 +23,7 @@ namespace Exercise14
 
         public void AddCell(TableCell cell)
         {
-            int counter = 0;
+            
             int index = 0;
             if (_masterCellCount == _numberOfCells)
             {
@@ -32,18 +32,20 @@ namespace Exercise14
                 {
                     if (curCell.Content.Count() == 1)
                     {
-                        index = counter;
+                        _cell[index] = cell;
                         break;
                     }
-                    counter++;
+                    index++;
                 }
+                
 
-                _cell[index] = cell;
+                
                 
             }else {
                 _cell.Add(cell);
                 _numberOfCells++;
             }
+            
 
 
         }

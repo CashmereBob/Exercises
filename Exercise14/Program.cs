@@ -47,6 +47,8 @@ namespace Exercise14
 
             // Test att lägga till i lista efter att cell är fylld med filler.
             row2.AddCell(cell22);
+            table.AddCol();
+            row3.AddCell(cell22);
 
             Console.WriteLine(table.ToString());
             Console.ReadKey();
