@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise1", "Exercise1\Exercise1.csproj", "{C8031868-9CF5-4C71-BFCB-CE45E12960D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise01", "Exercise1\Exercise01.csproj", "{C8031868-9CF5-4C71-BFCB-CE45E12960D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2", "..\Exercise2\Exercise2.csproj", "{AD059CDE-C1BB-4453-8D4C-FA4FDC41AEBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise02", "..\Exercise2\Exercise02.csproj", "{AD059CDE-C1BB-4453-8D4C-FA4FDC41AEBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3A", "..\Exercise3\Exercise3A.csproj", "{38CC4F72-D5BA-415E-8E10-96678ED0AAC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise03A", "..\Exercise3\Exercise03A.csproj", "{38CC4F72-D5BA-415E-8E10-96678ED0AAC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3B", "..\Exercise3B\Exercise3B.csproj", "{00AB51E2-1990-4287-ABDF-B3A35449BDB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise03B", "..\Exercise3B\Exercise03B.csproj", "{00AB51E2-1990-4287-ABDF-B3A35449BDB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3C", "..\Exercise3C\Exercise3C.csproj", "{BA425C46-5E16-421C-9665-E1E8CA220600}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise03C", "..\Exercise3C\Exercise03C.csproj", "{BA425C46-5E16-421C-9665-E1E8CA220600}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise3A 1.2", "..\Exercise3A 1.2\Exercise3A 1.2.csproj", "{964DE417-1B61-45F8-A157-224E70EEF39E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise03A 1.2", "..\Exercise3A 1.2\Exercise03A 1.2.csproj", "{964DE417-1B61-45F8-A157-224E70EEF39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise4 MyATM", "..\Exercise4\Exercise4 MyATM.csproj", "{EBF4204B-3C58-4FCC-A1D6-47B1543C2B56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise04 MyATM", "..\Exercise4\Exercise04 MyATM.csproj", "{EBF4204B-3C58-4FCC-A1D6-47B1543C2B56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise5", "..\Exercise5\Exercise5.csproj", "{329F8D81-65D0-4D15-A736-0B225D003C32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise05", "..\Exercise5\Exercise05.csproj", "{329F8D81-65D0-4D15-A736-0B225D003C32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise8", "..\Exercise8\Exercise8.csproj", "{43C1D6A8-E023-4132-B922-B5AA54CFA95B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise08", "..\Exercise8\Exercise08.csproj", "{43C1D6A8-E023-4132-B922-B5AA54CFA95B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise9", "..\Exercise9\Exercise9.csproj", "{F12962C1-AC2F-4FEA-B560-59883B8A22F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise09", "..\Exercise9\Exercise09.csproj", "{F12962C1-AC2F-4FEA-B560-59883B8A22F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise10", "..\Exercise10\Exercise10.csproj", "{86CCAF9A-0601-478E-848D-D5109E24C04D}"
 EndProject
@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extra02 - 03", "..\Extra02\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise13", "..\Exercise13\Exercise13.csproj", "{DDD0A2B4-0237-4DE0-9F32-A6A49DFE163D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraMod4", "..\ExtraMod4\ExtraMod4.csproj", "{F120D0FD-AB9F-4A6D-B2E7-979D440B647B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraMod04", "..\ExtraMod4\ExtraMod04.csproj", "{F120D0FD-AB9F-4A6D-B2E7-979D440B647B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraMod4.2 string input", "..\EtraMod4.2 string input\ExtraMod4.2 string input.csproj", "{6050C093-7DCF-4762-B51F-8E2BB8D9751E}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise16", "..\Exercise16\Exercise16.csproj", "{C70EF2F1-8D28-40BC-8A3B-96278EB6A2F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise17", "..\Exercise17\Exercise17.csproj", "{52C16B82-0DEB-4252-B4AD-06D0CDDAB639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise18", "..\Exercise18\Exercise18.csproj", "{2DF900E8-A26C-470A-A0A7-980400314BDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{52C16B82-0DEB-4252-B4AD-06D0CDDAB639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C16B82-0DEB-4252-B4AD-06D0CDDAB639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C16B82-0DEB-4252-B4AD-06D0CDDAB639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF900E8-A26C-470A-A0A7-980400314BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF900E8-A26C-470A-A0A7-980400314BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF900E8-A26C-470A-A0A7-980400314BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF900E8-A26C-470A-A0A7-980400314BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
