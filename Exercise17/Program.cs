@@ -18,14 +18,13 @@ namespace Exercise17
 
             var table = new Table();
 
-            var enumerator = logg.GetEnumerator();
             var cellHead = new TableHeaderCell("Log Posts");
             var rowFirst = new TableRow(cellHead);
             table.AddRow(rowFirst);
 
-            while (enumerator.MoveNext())
+            foreach (string post in logg)
             {
-                var cell = new TableCell(enumerator.Current);
+                var cell = new TableCell(post);
                 var row = new TableRow(cell);
                 table.AddRow(row);
             }
