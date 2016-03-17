@@ -19,8 +19,6 @@ namespace Exercise22
             coordinates2.x = 3;
             coordinates2.y = 3;
 
-            
-
             Console.WriteLine("Coordinates 1 {0}, {1}", coordinates1.x, coordinates1.y);
             Console.WriteLine("Coordinates 2 {0}, {1}", coordinates2.x, coordinates2.y);
 
