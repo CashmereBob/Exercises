@@ -18,11 +18,12 @@ namespace Exercise23B
             if (cord1 != null && cord2 != null && cord3 != null)
             {
                 triangel = new Triangle(cord1, cord2, cord3);
+                Console.WriteLine($"{triangel._AB.Value.x} {triangel._AB.Value.y}");
+                Console.WriteLine($"{triangel._BC.Value.x} {triangel._BC.Value.y}");
+                Console.WriteLine($"{triangel._CA.Value.x} {triangel._CA.Value.y}");
             }
 
-            Console.WriteLine($"{triangel._AB.Value.x} {triangel._AB.Value.y}");
-            Console.WriteLine($"{triangel._BC.Value.x} {triangel._BC.Value.y}");
-            Console.WriteLine($"{triangel._CA.Value.x} {triangel._CA.Value.y}");
+
             Console.ReadLine();
             
 
